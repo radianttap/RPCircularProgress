@@ -1,10 +1,10 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
     name: "RPCircularProgress",
     platforms: [
-        .iOS(.v8)
+        .iOS(.v12)
     ],
     products: [
         .library(name: "RPCircularProgress",
